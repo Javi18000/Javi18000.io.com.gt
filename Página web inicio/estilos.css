@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+header{
+    width: 100%;
+    background: #0baccc;
+    height: 100px;
+}
+
+header img{
+    float: left;
+    height: 70px;
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+}
+
+nav{
+    float: right;
+}
+
+nav a{
+    padding: 30px;
+    color:white;
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+nav a:hover{
+    background: white;
+    color:#0baccc;
+}
+
+.import{
+    width: 50%;
+    float: left;
+}
+
+.half img{
+    width: 100%;
+    height: auto;
+}
+
+.half h1{
+    margin-top: 300px;
+    line-height: 70px;
+}
+
+.descrip{
+    width: 100%;
+    background: #EEE;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.descrip h1{
+    line-height: 70px; 
+}
+
+.descrip h3{
+    line-height: 50px;
+}
+
+.descrip p{
+    line-height: 30px;
+}
+
+.servi{
+    width: 980px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.servi li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background: #0baccc;
+    color:white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.servi li img{
+    height: 70px;
+    width: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+footer{
+    width: 85%;
+    background: #EEE;
+    padding: 100px 0;
+    text-align: center;
+}

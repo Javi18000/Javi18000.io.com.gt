@@ -1,0 +1,316 @@
+body{
+    margin: 0%;
+}
+
+.container{
+    width: 45%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+
+    position: fixed;
+    width: 100%;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+logo-nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.navecation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navecation ul li{
+    display: inline-block;
+
+}
+
+.navecation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+
+.navecation ul li a:hover{
+        background: #4a4a4a;
+}
+
+#tes{
+    background-color: rgb(30, 30, 141);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1em;
+}
+
+li{
+    font-size: 1.2em;
+}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 35px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+    color: black;
+    background-color: aquamarine;
+}
+
+button:hover{
+    background-color:gray;
+}
+
+.conta{
+    max-width: 1400px;
+    text-align: center;
+    margin: 0;
+}
+
+.color{
+    color:skyblue;
+}
+
+header{
+    width: 100%;
+    background: #0baccc;
+    height: 100px;
+}
+
+header img{
+    float: left;
+    height: 70px;
+    width: 70px;
+    display: block;
+    border-radius: 50%;
+}
+
+
+header .conta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    float: right;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav a{
+    padding: 30px;
+    color:white;
+    text-decoration: none;
+    line-height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: white;
+}
+
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;
+    color:white;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(eje2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#text h1{
+    color:white;
+}
+
+#text button{
+    font-size: 1.74em;
+}
+
+#rodvel .conta{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#info{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+
+#info .conta{
+    padding: 150px 12px;
+}
+
+#info h2{
+ margin-top: 0;
+ font-size: 3em;
+}
+
+#info p{
+    display: none;
+}   
+
+#info .result{
+    background-position: center center;
+    background-size: cover;
+    padding: 330px 0px;
+    margin: 20px;
+    border-radius: 20%;
+}
+
+.result:first-child{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(medico.jpg);
+}
+
+.result:nth-child(2){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(eje3.jpeg);
+}
+
+.result:nth-child(3){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(eje3.jpeg);
+}
+
+#carac .conta{
+    text-align: center;
+    padding: 150px 12px;
+}
+
+#carac li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#apli{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#apli h2{
+    font-size: 3em;
+}
+
+#apli button{
+    font-size: 1.75em;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer .conta{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer p{
+    margin: 10;
+    color: rgb(100, 100, 100);
+    padding: 12px;
+}
+
+#rodvel .conta{
+    display: flex; 
+    justify-content: center;
+}
+
+#rodvel .Texto{
+width: 50%;
+text-align: initial;
+padding: 0 30px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+ 
+}
+
+#rodvel .imag-conta{
+    background-image: url("eje4.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 30%;
+}
+
+#info .informacion{
+    display: flex;
+    justify-content: center;
+}
+
+#info p{
+    display: block;     
+}
+
+#info .result{
+    padding: 150px;
+
+}
+
+#info h3{
+    margin: 0;
+}
